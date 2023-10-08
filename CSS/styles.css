@@ -1,0 +1,93 @@
+.d-flex{
+    display: flex;
+    position: absolute;
+    bottom :50;
+    right : 50px;
+}
+.navbar-collapse{
+    display: flex;
+    position: absolute;
+    bottom :50;
+    left : 500px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+body{
+    background-image: url('../ASSETS/images/BG-WEB-PRIME.png');    
+}
+.navbar {
+    background-color: rgba(255, 255, 255, 0.737);
+}
+.dropdown-item:hover {
+    background-color: #eaeaea;
+}
+.container-fluid{
+    padding :10px;
+   /* text-align: center;*/
+    max-width: 100%;
+}
+.left
+{
+    margin-top: 140px;
+    
+}
+.card {
+    font-family:monospace;
+    margin-top : 100px;
+
+    margin-bottom: 100px;
+    margin-left: 60px;
+    width: 600px;
+    height: 700px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.right{
+    margin-top: 200px;
+}
+.left h1{
+    font-size:45px;
+        text-align: center;
+    
+
+}
+.left p{
+    font-size:25px;
+    padding-left: 25px;
+}
+/* Add a slight shadow for depth */
+.second-con .border {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the background of the columns */
+.second-con .bg-light {
+    background-color: #f7f7f7 !important; /* Overriding Bootstrap's bg-light color */
+}
+
+/* Provide more space between rows */
+.second-con .row {
+    margin-bottom: 20px;
+}
+
+/* Give the text inside the columns better presentation */
+.second-con .p-3 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333; /* Dark gray text color */
+}
+
+/* Add hover effect for better interactivity */
+.second-con .border:hover {
+    background-color: #e9e9e9; /* Slightly darker background on hover */
+    cursor: pointer;
+    transform: translateY(-3px); /* Slight movement upwards */
+    transition: all 0.2s ease-in-out; /* Smooth transition for all properties */
+}
+
+/* Add space at the top and bottom for better layout */
+.second-con {
+    padding: 20px 0;
+}
