@@ -15,6 +15,7 @@
 body{
     background-image: url('../ASSETS/images/BG-WEB-PRIME.png');    
 }
+
 .navbar {
     background-color: rgba(255, 255, 255, 0.737);
 }
@@ -76,7 +77,8 @@ body{
 .second-con .p-3 {
     font-size: 16px;
     line-height: 1.5;
-    color: #333; /* Dark gray text color */
+    color: #000000; /* Dark gray text color */
+  
 }
 
 /* Add hover effect for better interactivity */
@@ -90,4 +92,52 @@ body{
 /* Add space at the top and bottom for better layout */
 .second-con {
     padding: 20px 0;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: 500px;
+    transition: all 0.3s ease;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#prevBtn {
+    left: 0;
+}
+
+#nextBtn {
+    right: 0;
+}
+/* styles.css file */
+.custom-button {
+    background-color: blue;
+    color: white;
+    border: none; /* Remove the default border */
+    padding: 10px 15px; /* Add some padding for better appearance */
+    cursor: pointer; /* Change the mouse cursor on hover */
+}
+
+.custom-button:hover {
+    background-color: darkblue; /* Change color on hover */
 }
